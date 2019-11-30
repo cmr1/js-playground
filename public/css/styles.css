@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+#editor, #console {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  min-height: 500px;
+}
+
+#console {
+  border: 1px solid black;
+  padding: 20px;
+}
